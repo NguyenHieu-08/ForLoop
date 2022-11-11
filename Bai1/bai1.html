@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Nhập chuỗi</title>
+    </head>
+    <body>
+        <p>In ra kết quả</p>
+        <p id="result"></p>
+    </body>
+
+    <script>
+        let text = '';
+        for(let i = 0; i < 5; i++) {
+            text += "The number is " + i + "<br>";
+        }
+        document.getElementById("result").innerHTML = text;
+    </script>
+</html>
